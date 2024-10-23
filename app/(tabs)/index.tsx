@@ -1,13 +1,12 @@
-import { StyleSheet,Text, View } from 'react-native';
-
+import { StyleSheet, Text, View } from 'react-native'
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Text className=''>Tab One</Text>
-      <View style={styles.separator}  />
+      <Text className="">Tab One</Text>
+      <View style={styles.separator} />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -25,4 +24,4 @@ const styles = StyleSheet.create({
     height: 1,
     width: '80%',
   },
-});
+})
